@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Enemy">
+    <Position X="5.5" Y="3" Width="2" />
+    <InheritanceLine Type="Character" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="2.25" Y="4.393" />
+        <Point X="2.807" Y="4.393" />
+        <Point X="2.807" Y="4.226" />
+        <Point X="5.5" Y="4.226" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAAAAAAACAAAAAAAAAAIAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgoAAOAAEAABSCCAEAEQACAZAAAACCIACAgAAACFA=</HashCode>
+      <FileName>Character.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_position" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAIAAAAACAICQAAAAAAAAAAJAAAAABAAAA=</HashCode>
+      <FileName>GameManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_player" />
+      <Field Name="_level" />
+      <Field Name="_enemies" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Level">
+    <Position X="11.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQABAAAAAAAAAAAQAQAAAAAAAAAAARBAAAAAAEUBAA=</HashCode>
+      <FileName>Level.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="5.5" Y="5.5" Width="2" />
+    <InheritanceLine Type="Character" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="2.25" Y="4.393" />
+        <Point X="2.823" Y="4.393" />
+        <Point X="2.823" Y="6.405" />
+        <Point X="5.5" Y="6.405" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAEAAAAAAAAACAAAAAAQAAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Position">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAQAAAAgAAAAAAACAAAAAAAAAABAAAAEgAA=</HashCode>
+      <FileName>Position.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="5.75" Y="1" Width="2" />
+    <NestedTypes>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::difference_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::_Mybase" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::_Myt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::allocator_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::size_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::reverse_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::_Alty" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::value_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_reverse_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IUoEEIEqCLBMUEBAAKMIAgASAgUESAIAxQMwgwAEQgI=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
