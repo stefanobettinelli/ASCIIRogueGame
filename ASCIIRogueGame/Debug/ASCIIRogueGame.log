@@ -1,0 +1,19 @@
+﻿Build started 07/10/2015 23:34:46.
+     1>Project "C:\Users\Stefano\Desktop\ASCIIRogueGame\ASCIIRogueGame\ASCIIRogueGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stefano\Desktop\ASCIIRogueGame\Debug\ASCIIRogueGame.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"C:\Users\Stefano\Desktop\ASCIIRogueGame\Debug\ASCIIRogueGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stefano\Desktop\ASCIIRogueGame\Debug\ASCIIRogueGame.lib" /MACHINE:X86 Debug\Enemy.obj
+         Debug\Character.obj
+         Debug\GameManager.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\Player.obj
+         Debug\Position.obj
+         ASCIIRogueGame.vcxproj -> C:\Users\Stefano\Desktop\ASCIIRogueGame\Debug\ASCIIRogueGame.exe
+     1>Done Building Project "C:\Users\Stefano\Desktop\ASCIIRogueGame\ASCIIRogueGame\ASCIIRogueGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.60
