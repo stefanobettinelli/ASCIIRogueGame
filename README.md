@@ -20,7 +20,7 @@ The player can move with 'wasd' key and can engage in battle monster simply movi
 
 ### Code structure ###
 
-The is written so that it can be further expanded with new features. All the classes are loosly coupled and every module does only a specific thing.
+The code is written so that it can be further expanded with new features. All the classes are loosly coupled and every module does only a specific thing.
 
 #### Class diagram ####
 
